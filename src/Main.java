@@ -20,4 +20,11 @@ class Account {
     public double getBalance() {
         return balance;
     }
+    public void debit(double amount) {
+        if (amount > balance) {
+            System.out.println("Debit amount exceeded account balance.");
+        } else {
+            balance -= amount;
+        }
+    }
 }
