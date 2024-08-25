@@ -17,4 +17,7 @@ class Account {
             balance += amount;
         }
     }
+    public double getBalance() {
+        return balance;
+    }
 }
