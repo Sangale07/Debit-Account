@@ -12,4 +12,9 @@ class Account {
             this.balance = initialBalance;
         }
     }
+    public void deposit(double amount) {
+        if (amount > 0.0) {
+            balance += amount;
+        }
+    }
 }
