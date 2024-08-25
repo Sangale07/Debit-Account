@@ -10,6 +10,10 @@ public class Main {
         System.out.println("Attempting to debit 50.0 from the account.");
         account.debit(50.0);
         System.out.printf("Account balance after debit: %.2f%n", account.getBalance());
+
+        System.out.println("Attempting to debit 60.0 from the account.");
+        account.debit(60.0);
+        System.out.printf("Account balance after attempted debit: %.2f%n", account.getBalance());
     }
 }
 class Account {
